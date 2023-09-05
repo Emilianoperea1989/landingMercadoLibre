@@ -1,0 +1,226 @@
+.headerNav {
+    display: grid;
+    grid-template-areas:
+        "nav-top-left nav-top-center nav-top-right"
+        "nav-bottom-left nav-bottom-center nav-bottom-right";
+    grid-template-columns: 162px minmax(340px, 580px) minmax(350px, 390px);
+    grid-template-rows: 40px 28px;
+    -webkit-column-gap: 24px;
+    -moz-column-gap: 24px;
+    column-gap: 24px;
+    grid-column-gap: 24px;
+    row-gap: 12px;
+    grid-row-gap: 12px;
+    padding: 8px 10px 12px 10px;
+
+
+}
+
+.nav-top-left {
+    display: flex;
+    justify-self: start;
+    align-items: center;
+}
+
+.nav-bottom-center {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    margin: -4px;
+    height: 36px;
+}
+
+.nav-top-right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.navMenu {
+    margin: 0;
+    height: 100%;
+}
+
+.menuList {
+    display: flex;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.menuItem {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+    height: 28px;
+    margin-right: 16px;
+    color: rgba(51, 51, 51, .6);
+    line-height: 18px;
+    font-size: 14px;
+
+}
+
+.menuItem a {
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(51, 51, 51, .6);
+    -webkit-transition: color .3s ease-out;
+    transition: color .3s ease-out;
+}
+
+.nav-top-right {
+    justify-content: flex-end;
+}
+
+.nav-bottom-left {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 400;
+    height: 28px;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+}
+
+.nav-bottom-left span {
+    max-width: 140px;
+    margin: 0;
+
+}
+
+.nav-bottom-right {
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.nav-bottom-right {
+    display: flex;
+
+}
+
+
+.loginMenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    width: 100%;
+}
+
+.loginMenu a {
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(51, 51, 51, .6);
+    -webkit-transition: color .3s ease-out;
+    transition: color .3s ease-out;
+}
+
+.logoEncuentro {
+    width: 38px;
+}
+
+.localizacion {
+    display: flex;
+    flex-direction: column;
+}
+
+.localizacionP1 {
+    font-size: 11px;
+    color: rgba(51, 51, 51, .6);
+}
+
+.localizacionProvincia {
+    font-size: 14px;
+}
+
+.carrito {
+
+    width: 30px;
+}
+
+
+.headerFlex {
+    height: 100px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    background-color: #fff159;
+    border: 0;
+    position: relative;
+}
+
+.logoMeli {
+    height: 34px;
+    width: 134px;
+    display: flex;
+    position: static;
+
+}
+
+.buscador {
+    z-index: 910;
+    will-change: left;
+    -webkit-transition: left .15s ease-out;
+    transition: left .15s ease-out;
+    top: 0;
+    right: 45px;
+    max-width: 720px;
+    left: -1px;
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 0px;
+    position: relative;
+    overflow: visible;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.lupaBuscador {
+    position: absolute;
+    z-index: 920;
+    padding: 0;
+    background: none;
+    border: none;
+    font-size: 22px;
+    color: #666;
+    line-height: 1em;
+    -webkit-border-radius: 0 2px 2px 0;
+    border-radius: 0 2px 2px 0;
+    width: 46px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: auto;
+    background-image: none;
+    height: 40px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.logoDisney {
+    max-width: 340px;
+    max-height: 39px;
+}
+
+::placeholder {
+    font-family: inherit;
+    color: rgba(128, 128, 128, 0.308);
+    padding: 10px 60px 10px 15px;
+    font-size: 15px;
+
+}
