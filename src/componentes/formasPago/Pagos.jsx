@@ -37,7 +37,7 @@ const Pagos = () => {
                         </div>
 
                     </div>
-                    <div>
+                    <div className='masMetodosDePago'>
                         <img src="../../../public/assets/imgs/view-more.svg" alt="" />
                         <a href=""></a>
                     </div>

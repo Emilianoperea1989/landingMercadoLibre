@@ -4,6 +4,8 @@
   }
   
   .carousel-slide {
+    display: flex !important;
+    justify-content: center;
     position: relative;
     text-align: center;
   }
