@@ -1,8 +1,14 @@
 import React from 'react'
-
+import './ofertas.css'
+import ProductComponent from '../productComponent/ProductComponent'
+import productos from '../productComponent/productos';
 const Ofertas = () => {
   return (
-    <div>Ofertas</div>
+   <>
+   <div className='container'>
+     <ProductComponent productos={productos} /> 
+   </div>
+   </>
   )
 }
 
