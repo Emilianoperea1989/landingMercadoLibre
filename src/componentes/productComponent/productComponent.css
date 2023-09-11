@@ -1,0 +1,34 @@
+.contenedor-tarjetas{
+    display: flex;
+    flex-direction: row;
+  
+}
+.titulo-ofertas{
+ background-color: aqua;
+}
+
+
+.tarjetaProductos{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 223.19px;
+    height:403.58px;
+    background-color:#ffffff;
+    border-radius: 3px;
+    
+
+ 
+}
+.contenedor-imag{
+    display: flex;
+    width: 100%;
+    height: 200px;
+  
+}
+
+.img-producto{
+     min-width: 100%;
+    object-fit:contain
+}

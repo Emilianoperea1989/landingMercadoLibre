@@ -1,7 +1,22 @@
-.container{
-    background-color:#ffffff;
-    margin: 80px auto 0;
-    width: 1200px;
-    height: 500px;
+.contenedor-ofertas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 90px auto 0;
 
+  position: relative;
+     height: 490px;
+}
+.container-titulo-oferta{
+    align-items: baseline;
+    display: flex;
+    margin: 14px;
+}
+.container-titulo-oferta a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color:#1259c3;
 }
