@@ -17,11 +17,11 @@ const Carousel = () => {
   };
 
   const images = [
-    '../../../public/assets/imgs/D_NQ_886264-MLA71387016212_082023-OO.webp',
-    '../../../public/assets/imgs/D_NQ_609104-MLA71410481099_082023-OO.webp',
-    '../../../public/assets/imgs/D_NQ_894629-MLA71303166274_082023-OO.webp',
-    '../../../public/assets/imgs/D_NQ_953032-MLA71435997233_082023-OO.webp',
-    '../../../public/assets/imgs/D_NQ_959032-MLA71412055836_092023-OO000.webp',
+    'https://res.cloudinary.com/duqilis2i/image/upload/v1694480197/IMG%20Emiliano%20Perea/D_NQ_959032-MLA71412055836_092023-OO000_se5p4n.webp',
+    'https://res.cloudinary.com/duqilis2i/image/upload/v1694480197/IMG%20Emiliano%20Perea/D_NQ_886264-MLA71387016212_082023-OO_lxvalm.webp',
+    'https://res.cloudinary.com/duqilis2i/image/upload/v1694480197/IMG%20Emiliano%20Perea/D_NQ_953032-MLA71435997233_082023-OO_poawxu.webp',
+    'https://res.cloudinary.com/duqilis2i/image/upload/v1694480196/IMG%20Emiliano%20Perea/D_NQ_894629-MLA71303166274_082023-OO_slhp0n.webp',
+    'https://res.cloudinary.com/duqilis2i/image/upload/v1694480196/IMG%20Emiliano%20Perea/D_NQ_609104-MLA71410481099_082023-OO_wc8twg.webp',
   ];
 
   return (
